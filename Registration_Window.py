@@ -23,7 +23,6 @@ def change1():
 # Function to switch to login window
 def login_window():
     import Login_Window
-    registration_window.destroy()
 
 # Function to register user
 def register():
@@ -59,6 +58,10 @@ def register():
 registration_window = Tk()
 registration_window.minsize(400, 400)
 registration_window.maxsize(400, 400)
+
+label0 = Label(registration_window,text="My Study App",font=(
+    "Sans Comic MS", 20, "bold"), bg="#f0f0f0", fg="black")
+label0.place(relx=0.5,rely=0.1,anchor=CENTER)    
 
 heading_label = Label(
     registration_window, text="Register", font='arial 18 bold')

@@ -51,6 +51,10 @@ def signup():
 
 
 # GUI
+label0 = Label(root,text="My Study App",font=(
+    "Sans Comic MS", 20, "bold"), bg="#f0f0f0", fg="black")
+label0.place(relx=0.5,rely=0.18,anchor=CENTER)    
+
 label1 = Label(root, text="Welcome!", font=(
     "Sans Comic MS", 20, "bold"), bg="#f0f0f0", fg="black")
 label1.place(relx=0.5, rely=0.3, anchor=CENTER)

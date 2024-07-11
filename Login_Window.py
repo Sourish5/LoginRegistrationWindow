@@ -46,6 +46,9 @@ def login():
                     root.minsize(600, 400)
                     root.maxsize(600, 400)
 
+                    labelx = Label(root,text="My Study App", font=("Comic Sans MS", 18, 'bold'), fg="black")
+                    labelx.place(relx=0.5,rely=0.1,anchor=CENTER)
+
                     label_a = Label(root, text="Welcome " + username + "!",
                                     font=("Comic Sans MS", 18, 'bold'), fg="black")
                     label_a.place(relx=0.5, rely=0.5, anchor=CENTER)
@@ -63,6 +66,10 @@ def login():
 # Create the login window
 login_window = Tk()
 login_window.geometry("400x400")
+
+label0 = Label(login_window,text="My Study App",font=(
+    "Sans Comic MS", 20, "bold"), bg="#f0f0f0", fg="black")
+label0.place(relx=0.5,rely=0.1,anchor=CENTER)    
 
 log_heading_label = Label(
     login_window, text="Log In", font='arial 18 bold')
