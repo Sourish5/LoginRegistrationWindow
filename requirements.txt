@@ -1,0 +1,2 @@
+firebase==3.0.1  # Firebase integration library
+cryptography==35.0.0  # Library for encryption
